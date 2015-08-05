@@ -1,12 +1,7 @@
-package ll;
-class ListNode{
-	  int val;
-	  ListNode next;
-	  ListNode(int x) { val = x; }
-	       }
+package linkedlist;
+
 /**
  * 核心的就是归并排序，来满足O(n log n)  ;
- * @author eversec
  *
  */
 
