@@ -14,7 +14,7 @@ def rob( nums):
 	max_res=0 
 	for i in range(num_len):
 		dp[i]=max_first+nums[i]
-		max_first=max(max_first,max_second)
+		max_first=max(max_res,max_second)
 		max_second=dp[i] 
 		max_res= max(max_res,dp[i])
 	print(dp)
