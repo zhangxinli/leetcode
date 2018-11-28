@@ -25,3 +25,6 @@ class Solution:
         
         self.helper(node.right,level+1,res)
         self.helper(node.left,level+1,res)
+
+
+print('abcd'[len('abc'):])
